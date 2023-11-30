@@ -1,0 +1,671 @@
+*{
+    padding: 0px;
+    margin: 0PX;
+}
+
+
+.navcontainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__list{
+    display: flex;
+}
+
+.text_right{
+ text-decoration: none;
+ margin-left: 100px;
+}
+
+.highlight {
+    color: red; 
+  }
+
+.nav__item{
+    margin-right: 50px;
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+li button{
+    border: 2px solid red;
+    border-radius: 0px;
+    width:60px;
+    color: red;
+    background-color: white;
+}
+
+
+.Food_Bag{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.foodie{
+    font-size: 30px;
+}
+
+.where{
+    margin-top: 70px;
+    margin-left: 100px;
+}
+
+.interest{
+    margin-top: 15px;
+    margin-left: 100px;
+    margin-bottom: 15px;
+}
+
+.foods{
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: white;
+    margin-top: 15px;
+    width:95%;
+    padding: 10px;
+}
+ .sorrows,
+ .good,
+ .sad{
+    margin-top: 10px;
+ }
+
+  .Food_Grid{
+  column-gap: 25px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, .2fr));
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+  }
+    
+  .serve{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  .Service_Grid{
+    margin-left: 100px;
+    column-gap: 55px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, .5fr));
+     row-gap: 20px;
+  }
+
+  .Service__card{
+    width:100%;
+  }
+
+  .Service__text {
+    text-align: center;
+  }
+   
+  .social_text{
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .Social_images {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+  }
+
+  .Social{
+    margin-left: 12px;
+  }
+
+  .Terms{
+    margin-top: 30px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+  }
+
+  .Copyright{
+    margin-right: 75px;
+  }
+
+
+
+
+.vendors{
+    margin-left: 100px;
+    margin-top: 80px;
+}
+
+.opaque{
+    opacity:0.3
+}
+
+.Home_vendors{
+    margin-bottom: 30px;
+}
+
+.Vendor_title{
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+  
+  .kfc_flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+.kfc_left{
+    display: flex;
+    align-items: center;
+}
+
+.kfc_text {
+    color: red;
+    margin-right: 130px;
+}
+
+.KFC__img{
+    margin-right: 20px;
+}
+
+
+.Menu_Grid {
+  column-gap: 25px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, .2fr));
+  justify-content: center;
+  align-items: center;
+  
+  row-gap: 20px;
+  }
+
+.place__card{
+    
+    background-color: whitesmoke;
+    width:100%;
+}
+
+.Chicken__menu{
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price{
+    
+    color: green;
+    
+}
+
+.Chicken_image{
+    width:100%;
+}
+
+.kfc_btn button{
+    margin-top: 20px;
+    border: 2px solid red;
+    border-radius: 0px;
+    width:75px;
+    color: red;
+    background-color:white;    
+}
+
+
+
+
+
+
+
+.Chicken_Grid {
+    column-gap: 25px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, .2fr));
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    }
+
+
+.Chicken_flex{
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .Chicken_left{
+    display: flex;
+    align-items: center;
+}
+
+.Chicken_text {
+    color: red;
+    margin-right: 130px;
+}
+
+.Chicken_btn button{
+    margin-top: 20px;
+    border: 2px solid red;
+    border-radius: 0px;
+    width:75px;
+    color: red;
+    background-color:white;    
+}
+
+
+.c_text{
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+.Home_cart{
+    margin-bottom: 30px;
+}
+
+.Cart_title{
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+
+.Cart_heading{
+    margin-left: 100px;
+}
+
+.Cart_body{
+    display: flex;
+    margin-left: 50px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.kf_posneg{
+    display:flex;
+    margin-left: 20px;
+    flex-direction: column;
+    
+}
+
+.pos_neg{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+}
+
+.plus{
+    margin-right: 15px;
+}
+
+.minus{
+    margin-left: 15px;
+}
+
+.right{
+    margin-right: 100px;
+}
+
+hr {
+    border: 1.5px solid #ccc; 
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+.scooter{
+    margin-right: 30px;
+}
+
+
+.Checkout_btn  {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.Checkout_btn button {
+      width:50%;
+      color:white;
+      background-color: brown;
+      height: 50px;
+}
+
+
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh; /* Ensure the body takes the full height of the viewport */
+      margin: 0;
+}
+
+.Sucess{
+    margin-bottom: 30px;
+}
+
+.green{
+    color:green;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+.Verification_heading{
+    margin-left: 30px;
+}
+
+
+.Verification_cart{
+    margin-bottom: 30px;
+}
+
+.Verification_title{
+    margin-bottom: 50px;
+    font-size: 20px;
+    color:red;
+}
+
+.Delivery{
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.radio{
+    margin-right: 100px;
+}
+
+
+
+
+
+
+form {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    margin-left:30px;
+    margin-right: 50px;
+    
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+  }
+
+  .Payment{
+    margin-left: 30px;
+  }
+
+.left_input,
+.right_input {
+    width: 90%;
+    margin-left: 0px;
+    margin-right: 0px;
+} 
+
+.Double_form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-right: 50px;
+}
+
+.red{
+    color: red;
+}
+
+.place__cardlast{
+    
+    background-color: whitesmoke;
+    width:100%;
+}
+
+.mobile_text{
+    display: none;
+}
+
+
+
+
+@media screen and (max-width: 450px) {
+    .Menu_Grid{
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+    row-gap: 20px;
+    }
+
+    .vendors{
+        margin-left: 0px;
+        }
+        .text_right{
+            text-decoration: none;
+            margin-left: 0px;
+           }
+
+           .Food_Grid{
+            column-gap: 25px;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(1, minmax(0, 1fr));
+            justify-content: center;
+            align-items: center;
+            row-gap: 20px;
+            } 
+
+
+            .Food_Bag{
+                text-align: left;
+                margin-left: 30px;
+                margin-top: 70px;
+            }
+        
+            .where{
+                margin-top: 50px;
+                margin-left: 30px;
+            }
+    
+            .foods{
+                margin-left: 30px;
+                margin-right: 30px;
+                background-color: white;
+                margin-top: 15px;
+                width:75%;
+                padding: 10px;
+            }
+
+            .interest{
+                margin-top: 15px;
+                margin-left: 30px;
+                margin-bottom: 15px;
+            }
+         
+            .place__card{
+              background-color: whitesmoke;
+              width:100%;
+            
+            }
+
+            .serve{
+                text-align: center;
+                margin-top: 60px;
+                margin-bottom: 60px;
+                font-size: 30px;
+              }
+             
+              .Service_Grid{
+                margin-left: 0px;
+                column-gap: 55px;
+                align-items: center;
+                justify-content: center;
+                padding: 20px;
+                display: grid;
+                grid-template-columns: repeat(1, minmax(0, 1fr));
+                 row-gap: 20px;
+              }
+
+
+              .Social{
+                margin-left: 22px;
+              }
+            
+              .Terms{
+                margin-top: 30px;
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 80px;
+              }
+                
+              .Copyright{
+                margin-top: 35px;
+              }
+             
+              .Chicken_text,
+              .kfc_text
+              {
+                display: none;
+            }
+
+              .place__cardlast{
+                display: none;
+              }
+
+              .Chicken_Grid{
+                display: grid;
+                grid-template-columns: repeat(1, minmax(0, 1fr));
+                justify-content: center;
+                align-items: center;
+                column-gap: 50px;
+                row-gap: 20px;
+                }
+
+                .mobile_text{
+                    display: block;
+                    color:red;
+                    font-size: 20px;
+                    text-align: center;
+                    margin-top: 40px;
+                    margin-bottom: 35px;
+                }
+
+
+                .Cart_heading{
+                    margin-left: 20px;
+                }
+
+                .Cart_body{
+                    display: flex;
+                    margin-bottom: 30px;
+                }
+
+                .pos_neg{
+                    margin-top: 20px;
+                    display: flex;
+                    align-items:left;
+                }
+                
+                .left{
+                    display: flex;
+                    align-items: center;
+                }
+                .right{
+                    margin-right: 10px;
+                }
+
+
+
+
+
+                .Verification_heading{
+                    margin-left: 10px;
+                }
+
+                .Delivery{
+                    margin-left: 10px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-right: -70px;
+                }
+                
+
+                .Pay{
+                    margin-left: 30px;
+                    margin-right: 100px;
+                    background-color: white;
+                    margin-top: 15px;
+                    width:55%;
+                    padding: 10px;
+                }
+                input {
+                    margin-right: 50px;
+                    background-color: white;
+                    margin-top: 15px;
+                    width:85%;
+                    padding: 10px;
+                    margin-bottom: 16px;
+                  }
+
+.left_input,
+.right_input {
+    width: 200%;
+    margin-left: 0px;
+    margin-right: 0px;
+} 
+
+.Double_form{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-right: 200px;
+    text-align: left;
+}
+   
+form {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    
+  }
+
+
+
+    }
+    
+
